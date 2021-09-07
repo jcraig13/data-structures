@@ -4,10 +4,14 @@
 const fs = require('fs');
 const got = require('got');
 
+
+//Complete 10 times for each file of data
 (async () => {
 	try {
+		//recieve the site
 		const response = await got('https://parsons.nyc/aa/m01.html');
 		console.log(response.body);
+		//write to a local file
 		fs.writeFileSync('/home/ec2-user/environment/data/file1.txt', response.body);
 		//=> '<!doctype html> ...'
 	} catch (error) {
