@@ -8,7 +8,7 @@ const got = require('got');
 	try {
 		const response = await got('https://parsons.nyc/aa/m01.html');
 		console.log(response.body);
-		fs.writeFileSync('/home/ec2-user/environment/DataStructures/data/file1.txt', response.body);
+		fs.writeFileSync('/home/ec2-user/environment/data/file1.txt', response.body);
 		//=> '<!doctype html> ...'
 	} catch (error) {
 		console.log(error.response.body);
@@ -19,7 +19,7 @@ const got = require('got');
 	try {
 		const response = await got('https://parsons.nyc/aa/m02.html');
 		console.log(response.body);
-		fs.writeFileSync('/home/ec2-user/environment/DataStructures/data/file2.txt', response.body);
+		fs.writeFileSync('/home/ec2-user/environment/data/file2.txt', response.body);
 		//=> '<!doctype html> ...'
 	} catch (error) {
 		console.log(error.response.body);
