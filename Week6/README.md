@@ -10,6 +10,7 @@ In variable "thisQuery" we will input our SQL statement ```SELECT * FROM aalocat
 This SQL statement will return all columns from the aalocations table that are NORTH of latitude 40.8232200234845
 
 This is what that query returned:
+
 <img width="507" alt="Screen Shot 2021-10-15 at 12 40 15 PM" src="https://user-images.githubusercontent.com/48970337/137541292-b621b912-63ab-4e03-b1d5-5ef2d41782dc.png">
 
 ## Part 2
