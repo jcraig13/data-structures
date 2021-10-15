@@ -43,7 +43,7 @@ class BlogEntry {
 ```
 
 This constructs a row of a primary key, a date, people I saw, mood, activities, food, color of shirt, and the weather
-This block is used to assign those variables to a data type
+This block is used to assign those variables to a data type. Then they were pushing into an array called "blogEntries"
 
 Then, using async, I added each entry to the database with this block of code:
 ```
