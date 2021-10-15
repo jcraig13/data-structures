@@ -62,3 +62,6 @@ async.eachSeries(blogEntries, function(value, callback) {
     setTimeout(callback, 1000); 
 }); 
 ```
+
+### What the Database looks like in Dynamo 
+<img width="980" alt="Screen Shot 2021-10-15 at 2 14 56 PM" src="https://user-images.githubusercontent.com/48970337/137533828-52c2e1eb-12b1-4cc7-8c79-af7a9c6ecdeb.png">
